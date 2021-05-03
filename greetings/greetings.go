@@ -1,7 +1,9 @@
 package greetings
 
-import "fmt"
+import (
+	"fmt"
+)
 
-func Hi(name string) string  {
+func Hi(name string) string {
 	return fmt.Sprintf("Hi, %v. Nice to see you!", name)
 }
